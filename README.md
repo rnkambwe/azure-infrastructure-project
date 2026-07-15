@@ -22,6 +22,10 @@ This capstone project simulates a real-world enterprise cloud architecture, demo
 - Designed and deployed a **hub-and-spoke network topology** across two Azure regions (Australia East and UK South), supporting hybrid connectivity and cross-region communication.
 - Provisioned two virtual networks with CIDR ranges **10.10.0.0/23** (vnet1) and **10.20.0.0/23** (vnet2), each segmented into two `/24` subnets for workload isolation.
 - Established **VNet peering** between regions, enabling seamless, low-latency communication between resources across subscriptions while maintaining network segmentation.
+
+### VNet Peering
+![VNet Peering](docs/vnet-peering.jpg)
+
 - Implemented **Network Security Groups (NSGs)** with granular inbound rules:
   - **vnet1-nsg:** RDP (3389), HTTP (80), SMB (445) for Windows workloads
   - **vnet2-nsg:** SSH (22) for Linux workloads
@@ -63,6 +67,10 @@ This capstone project simulates a real-world enterprise cloud architecture, demo
   - Accessing individual VM public IPs to confirm web server operation.
   - Testing the load balancer public IP to verify traffic distribution.
   - Performing failover tests by stopping individual VMs and confirming traffic redirection to healthy instances.
+ 
+### Load Balancer Configuration
+
+![Load Balancer](docs/load-balancer.jpg)
 
 ### Storage & Data Protection
 
@@ -82,11 +90,17 @@ This capstone project simulates a real-world enterprise cloud architecture, demo
 - Added both Windows VMs to the Recovery Services Vault and enabled automated backups.
 - Triggered and validated **initial backups** for both VMs, confirming successful data protection configuration.
 
+### Backup Policy
+![Backup Policy](docs/backup-policy.jpg)
+
 ### Containerization
 
 - Deployed an **Azure Container Instance** (`n01677712-aci1`) in region 2 using a **Hello World image** from Azure Container Registry.
 - Configured a **custom DNS label** for the container, enabling public access via a user-friendly URL.
 - Validated container deployment by accessing the web page through the DNS label in a browser.
+
+### Azure Container Instance
+![Container Instance](docs/container-instance.jpg)
 
 ### Monitoring & Documentation
 
