@@ -102,6 +102,8 @@ This capstone project simulates a real-world enterprise cloud architecture, demo
 ### Azure Container Instance
 ![Container Instance](docs/container-instance.jpg)
 
+For a complete collection of all screenshots, see [Azure_Project_Sreenshots.pdf](docs/Azure_Project_Sreenshots.pdf).
+
 ### Monitoring & Documentation
 
 - Created a comprehensive **architecture diagram** in draw.io documenting:
