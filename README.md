@@ -10,7 +10,6 @@ This capstone project simulates a real-world enterprise cloud architecture, demo
 
 ## Architecture Diagram
 
-*[Insert your architecture diagram here once uploaded]*
 
 ![Azure Infrastructure Architecture](docs/architecture-diagram.png)
 
