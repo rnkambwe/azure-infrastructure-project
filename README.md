@@ -162,4 +162,9 @@ August 2024
 
 ---
 
+## Connect With Me
+
+- LinkedIn: https://www.linkedin.com/in/robert-nkambwe
+- Email: rnkambwe@yahoo.com
+
 *This project was completed as part of the Cloud Infrastructure program at Humber College, Canada.*
